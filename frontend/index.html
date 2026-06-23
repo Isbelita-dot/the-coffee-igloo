@@ -9,10 +9,11 @@
 
 <body>
 
-    <header>
+    <header class="site-header">
         <h1>The Coffee Igloo</h1>
+        <p>Discover and manage healthy coffee recipes.</p>
 
-        <nav>
+        <nav class="main-nav">
             <a href="#">Home</a>
             <a href="#">Recipes</a>
             <a href="#">Docs</a>
@@ -28,7 +29,7 @@
             <input type="text" id="search" placeholder="Search recipes...">
         </section>
 
-        <form>
+        <form class="recipe-form">
 
             <h2>Add Recipe</h2>
 
@@ -64,50 +65,53 @@
 
         </form>
 
-        <section>
+      <section class="recipes-section">
     <h2>Recipes</h2>
 
-    <article>
-        <h3>Mocha Protein Latte</h3>
+    <div class="recipe-actions">
 
-        <p><strong>Category:</strong> High Protein</p>
-        <p><strong>Calories:</strong> 190</p>
-        <p><strong>Protein:</strong> 24g</p>
-        <p><strong>Preparation Time:</strong> 5 min</p>
+        <article class="recipe-card">
+            <h3>Mocha Protein Latte</h3>
 
-        <button>Edit</button>
-        <button>Delete</button>
-    </article>
+            <p><strong>Category:</strong> High Protein</p>
+            <p><strong>Calories:</strong> 190</p>
+            <p><strong>Protein:</strong> 24g</p>
+            <p><strong>Preparation Time:</strong> 5 min</p>
 
-    <article>
-        <h3>Honey Cinnamon Cold Brew</h3>
+            <button>Edit</button>
+            <button>Delete</button>
+        </article>
 
-        <p><strong>Category:</strong> Low Calorie</p>
-        <p><strong>Calories:</strong> 90</p>
-        <p><strong>Protein:</strong> 2g</p>
-        <p><strong>Preparation Time:</strong> 3 min</p>
+        <article class="recipe-card">
+            <h3>Honey Cinnamon Cold Brew</h3>
 
-        <button>Edit</button>
-        <button>Delete</button>
-    </article>
+            <p><strong>Category:</strong> Low Calorie</p>
+            <p><strong>Calories:</strong> 90</p>
+            <p><strong>Protein:</strong> 2g</p>
+            <p><strong>Preparation Time:</strong> 3 min</p>
 
-    <article>
-        <h3>Vanilla Protein Latte</h3>
+            <button>Edit</button>
+            <button>Delete</button>
+        </article>
 
-        <p><strong>Category:</strong> High Protein</p>
-        <p><strong>Calories:</strong> 180</p>
-        <p><strong>Protein:</strong> 25g</p>
-        <p><strong>Preparation Time:</strong> 5 min</p>
+        <article class="recipe-card">
+            <h3>Vanilla Protein Latte</h3>
 
-        <button>Edit</button>
-        <button>Delete</button>
-    </article>
+            <p><strong>Category:</strong> High Protein</p>
+            <p><strong>Calories:</strong> 180</p>
+            <p><strong>Protein:</strong> 25g</p>
+            <p><strong>Preparation Time:</strong> 5 min</p>
 
+            <button>Edit</button>
+            <button>Delete</button>
+        </article>
+
+    </div>
 </section>
 
     </main>
 <footer>
-    <p>The Coffee Igloo API Project</p>
+    <p>© 2026 The Coffee Igloo | API Recipe Manager</p>
 </footer>
 </body>
 </html>
